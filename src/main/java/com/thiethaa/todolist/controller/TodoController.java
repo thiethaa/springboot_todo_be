@@ -16,7 +16,6 @@ public class TodoController {
 
     @GetMapping("/todolist")
     public List<Todo> getTodoList() {
-        System.out.println("test");
         return todoService.getTodoList();
     }
 
